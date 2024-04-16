@@ -1,0 +1,45 @@
+# settings
+execute_on_song_change = notify-send " Now playing" "$(mpc --format '%artist% - %title%' current)"
+
+# keybiinds
+def_key "6"
+  show_tag_editor
+
+# colors
+colors_enabled = "yes"
+empty_tag_color = "red"
+#header_window_color = default
+volume_color = "red"
+state_line_color = white
+main_window_color = white
+color1 = red
+color2 = red
+
+# interface
+user_interface = alternative
+#browser_display_mode = columns
+
+# progress bar
+progressbar_look = "▄▄ "
+
+# visualizer
+visualizer_color = "white"
+follow_now_playing_lyrics = "yes"
+#progressbar_color = black:b
+progressbar_elapsed_color = white:b
+statusbar_color = red
+statusbar_time_color = white:b
+player_state_color = white:b
+#alternative_ui_separator_color = black:b
+window_border_color = white
+active_window_border = red
+
+# ncmpcpp directory
+ncmpcpp_directory = "/home/variouz/.ncmpcpp"
+
+# mpd
+[mpd]
+mpd_crossfade_time = 2
+mpd_music_dir = "/mnt/2tb/music"
+mpd_host = "127.0.0.1"
+mpd_port = "6600"
